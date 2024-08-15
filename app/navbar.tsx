@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css";
 import { useRouter } from 'next/navigation';
-export default function () {
+export default function Navbar() {
   const router = useRouter();
 
   const handleClick = () => {

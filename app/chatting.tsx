@@ -8,7 +8,7 @@ import {useChat, Message} from "ai/react";
 import { useState } from "react";
 // import axios so we can easily send the user's input to our server
 import axios from "axios";
-export default function chatting() {
+export default function Chatting() {
     // We store and update the responses we get from the API with this state
 // I've added a default value to the 'response' state that we should see 
 // when the page initially loads
